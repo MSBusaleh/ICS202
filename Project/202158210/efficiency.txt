@@ -1,0 +1,14 @@
+Function header                             : complexity (Big-O)
+-------------------------------------------------------------
+constructors
+public Dictionary()                         : O(1)
+public Dictionary(String s)                 : O(1)
+public Dictionary(File infile)              : O(n)
+
+Methods
+public void addWord(String s)               :O(lg n)
+public boolean findWord(String s)           :O(lg n)
+public void deleteWord(String s)            :O(lg n)
+public ArrayList<String> findSimilar(String s):O(n)
+public void writeToFile(String s)           :O(n)
+
